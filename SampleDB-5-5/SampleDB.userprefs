@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{7AB9C493-D5B5-4610-801F-076A5FD16B1D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleDB/CommunicationsPage.xaml.cs">
+    <Files>
+      <File FileName="SampleDB/CommunicationsPage.xaml.cs" Line="470" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="709" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="710" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="715" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="81" column="88" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="68" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="106" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="74" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/UserGroupPage.xaml.cs" relfile="SampleDB/UserGroupPage.xaml.cs" line="38" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/UserGroupPage.xaml.cs" relfile="SampleDB/UserGroupPage.xaml.cs" line="38" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/UserGroupPage.xaml.cs" relfile="SampleDB/UserGroupPage.xaml.cs" line="38" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/UserGroupPageViewModel.cs" relfile="SampleDB/UserGroupPageViewModel.cs" line="117" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/UserGroupPage.xaml.cs" relfile="SampleDB/UserGroupPage.xaml.cs" line="44" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="518" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5-5/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="340" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="SampleDB/CommunicationsPage.xaml.cs" line="1210" offsetX="458" offsetY="18135" expression="InputOrgBehaviors[0].BehaviorType_ID" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleDB.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D93C4D9C-6BC3-4614-8F47-6511184A1640" />
+  <DisabledProjects>
+    <String>Droid/SampleDB.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>

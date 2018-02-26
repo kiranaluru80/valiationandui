@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SampleDB.JobInformationPage">
+    <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <ScrollView x:Name="scrollViewRef" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="0,10,0,40" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=0}" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1.0,Constant=0}">
+            <StackLayout Spacing ="20" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Orientation="Vertical" Padding="15">
+
+                <!-- Observer Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Observer" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Entry HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="observer" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                      <Label Text ="Union safety anonymous" FontSize ="14" VerticalOptions ="Center"/>
+                      <Switch/>
+                  </StackLayout>
+                </StackLayout>
+                <!-- Observer End -->
+                
+                <!-- Observee  Start-->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Observee(s) *" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Entry HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="observee" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                      <Label Text ="Observee anonymous" FontSize ="14" VerticalOptions ="Center"/>
+                      <Switch/>
+                  </StackLayout>
+                </StackLayout>
+                <!-- Observee  End-->
+
+                 <!-- JSSE date Start-->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="JSSE date *" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <DatePicker HorizontalOptions ="FillAndExpand" />
+                   <Image HorizontalOptions ="End" Source ="date" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- JSSE date  End-->
+
+                <!-- Region Start-->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Region *" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand" />
+                   <Image HorizontalOptions ="End" Source ="arrow" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Region End-->
+
+                <!-- Location Start-->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Location *" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Entry HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="location" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Location End-->
+
+                <!-- Buttons layout Start-->
+                <StackLayout Padding ="20,0,20,0" HorizontalOptions = "FillAndExpand" VerticalOptions ="StartAndExpand" Spacing ="10" Orientation ="Vertical">
+                  <Button HorizontalOptions ="FillAndExpand" VerticalOptions ="StartAndExpand" Text ="Cancel" FontAttributes ="Bold" BackgroundColor ="#9B9B9B" TextColor ="White"/>
+                  <Button HorizontalOptions ="FillAndExpand" VerticalOptions ="StartAndExpand" Text ="Reset" FontAttributes ="Bold" BackgroundColor ="#CDCDCD" TextColor ="White"/>
+                  <Button HorizontalOptions ="FillAndExpand" x:Name="resetRef" VerticalOptions ="StartAndExpand" Text ="Reset" FontAttributes ="Bold" BackgroundColor ="#9DC2DD" TextColor ="White"/>
+                </StackLayout>
+                 <!-- Buttons layout end-->
+                
+                
+            </StackLayout>
+        </ScrollView>
+    </RelativeLayout>
+</ContentPage>

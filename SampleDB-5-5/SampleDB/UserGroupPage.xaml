@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SampleDB.UserGroupPage">
+    <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1.0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1.0}" VerticalOptions="FillAndExpand" Spacing="0" Padding="0,20,0,0">
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" Padding="5,0">
+                <Frame CornerRadius="0" VerticalOptions="FillAndExpand" OutlineColor="Silver" HasShadow="false" Padding="5,5,5,5">
+                    <Picker Title="Select Group Name" ItemsSource="{Binding GroupItems}" x:Name="pickerRef" ItemDisplayBinding="{Binding GroupName}" SelectedItem="{Binding SelectedGroup}" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+                </Frame>
+                <!-- listview -->
+                <StackLayout BackgroundColor="White" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10,0,10,5">
+                    <ListView x:Name="homeListView" ItemsSource="{Binding ListeviewItemSource}" HasUnevenRows="true">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.ContextActions>
+                                        <MenuItem Clicked="OnMore" CommandParameter="{Binding .}" Text="More" />
+                                        <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                                    </ViewCell.ContextActions>
+                                    <Grid Margin="0,10,0,0" VerticalOptions="Center">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label FontSize="13" Text="JSSE ID" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" />
+                                        <Label FontSize="13" Text="Status" Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" />
+                                        <Label FontSize="13" Text="Bottom Left" Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" />
+                                        <Label FontSize="13" Text="{Binding jsseId}" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" />
+                                        <Label FontSize="13" Text="{Binding jsseStatus}" Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" />
+                                        <Label FontSize="13" Text="{Binding jsseDate}" Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" />
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+                <!-- listview-->
+            </StackLayout>
+        </StackLayout>
+    </RelativeLayout>
+</ContentPage>

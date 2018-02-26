@@ -1,0 +1,945 @@
+﻿{
+
+  "UserGroup_ID": 0,
+
+  "User": {
+
+    "CompanyId": null,
+
+    "UserRole": null,
+
+    "Emp_Id": 2990,
+
+    "FirstName": "Venkata",
+
+    "LastName": "Jarugula",
+
+    "UserTitle": null,
+
+    "Email": "jarugulav@coned.com",
+
+    "User_ID": "CONED\\JARUGULAV",
+
+    "FullName": "Jarugula , Venkata",
+
+    "MajorGroup_Id": "705",
+
+    "Org_Id": "705",
+
+    "Dept_Id": "137",
+
+    "Section_Id": "976",
+
+    "SecurityUserID": 14
+
+  },
+
+  "Users": null,
+
+  "Group": null,
+
+  "UserHierarchy": null,
+
+  "Groups": [
+
+    {
+
+      "Group_ID": 4,
+
+      "GroupName": "BW Owner",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 2,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "706",
+
+      "Org_Id": "720",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 6,
+
+          "PermissionName": "Manage Organization Behaviors",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 10,
+
+          "PermissionName": "Manage JSSE Users",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 12,
+
+      "GroupName": "Electric Owners",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 2,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "706",
+
+      "Org_Id": "706",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 10,
+
+          "PermissionName": "Manage JSSE Users",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 6,
+
+          "PermissionName": "Manage Organization Behaviors",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 29,
+
+      "GroupName": "Bklyn & Queens Owners",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 2,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "706",
+
+      "Org_Id": "722",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 10,
+
+          "PermissionName": "Manage JSSE Users",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 5,
+
+      "GroupName": "BW User",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 3,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "706",
+
+      "Org_Id": "720",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 10,
+
+          "PermissionName": "Manage JSSE Users",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 1,
+
+      "GroupName": "JSSE Administrator",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 1,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "0",
+
+      "Org_Id": "0",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 4,
+
+          "PermissionName": "Manage Categories",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 5,
+
+          "PermissionName": "Manage Enterprise Behaviors",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 6,
+
+          "PermissionName": "Manage Organization Behaviors",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 7,
+
+          "PermissionName": "Manage JSSE Groups",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 8,
+
+          "PermissionName": "Manage JSSE Admins",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 9,
+
+          "PermissionName": "Manage JSSE Owners",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 10,
+
+          "PermissionName": "Manage JSSE Users",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 18,
+
+      "GroupName": "Electric Ops Users",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 3,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "706",
+
+      "Org_Id": "706",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 9,
+
+      "GroupName": "Customer Ops Owner",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 2,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "748",
+
+      "Org_Id": "748",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    },
+
+    {
+
+      "Group_ID": 3,
+
+      "GroupName": "EHS User",
+
+      "GroupDesc": null,
+
+      "ModifiedDate": null,
+
+      "GroupType": {
+
+        "Level_Id": 3,
+
+        "Level_Name": null,
+
+        "Selected": false,
+
+        "LevelDesc": null
+
+      },
+
+      "MajorGroup_Id": "705",
+
+      "Org_Id": "705",
+
+      "Permissions": [
+
+        {
+
+          "Permission_ID": 2,
+
+          "PermissionName": "Create JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 3,
+
+          "PermissionName": "Edit JSSE",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        },
+
+        {
+
+          "Permission_ID": 1,
+
+          "PermissionName": "View All JSSEs",
+
+          "PermissionDesc": null,
+
+          "Selected": false,
+
+          "Disabled": false,
+
+          "PermissionLevel": null
+
+        }
+
+      ],
+
+      "Active": null,
+
+      "Status": null
+
+    }
+
+  ],
+
+  "ModifiedDate": null
+
+}
